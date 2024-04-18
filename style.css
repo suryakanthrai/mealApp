@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+}
+
+/* header navbar */
+#nav {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.app_name {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    text-shadow: none;
+}
+
+/* app's logo */
+#logo {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px 0 10px;
+    border-radius: 100%;
+}
+
+/* header search bar section */
+
+#search-bar {
+    max-width: 900px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 27px;
+}
+
+/* meal card */
+#card {
+    padding: 10px;
+    color: white;
+    box-shadow: rgb(158 158 158) 0px 1px 10px;
+    border-radius: 30px;
+}
+
+#card h5 {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#card img {
+    border-radius: 35px;
+    padding: 10px;
+}
+
+#card-title {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/* meal details container */
+
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(235, 17%, 45%);
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img {
+    height: 250px;
+    max-width: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
+#fav {
+    margin: 0 10px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
